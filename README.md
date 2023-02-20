@@ -1,4 +1,4 @@
-# HelloID-Task-SA-Target-ActiveDirectory-GrantMembership
+# HelloID-Task-SA-Target-ActiveDirectory-Group-GrantMembership
 
 ## Prerequisites
 
