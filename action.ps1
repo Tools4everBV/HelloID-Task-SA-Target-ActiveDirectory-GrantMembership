@@ -1,5 +1,5 @@
-# HelloID-Task-SA-Target-ActiveDirectory-GrantMembership
-########################################################
+# HelloID-Task-SA-Target-ActiveDirectory-GroupGrantMembership
+#############################################################
 # Form mapping
 $formObject = @{
     Identity = $form.GroupName
@@ -36,4 +36,4 @@ try {
     Write-Information -Tags "Audit" -MessageData $auditLog
     Write-Error "Could not execute ActiveDirectory action: [GrantMembership] for user: [$($formObject.Members)] on group: [$($formObject.Identity)], error: $($ex.Exception.Message)"
 }
-########################################################
+#############################################################
